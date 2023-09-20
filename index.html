@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cavaleiros de Santa Maria</title>
+  </head>
+  <body class="bg-black text-white">
+    <!--Menu de Navegação-->
+    <nav id="home">
+      <div class="bg-black fixed w-full">
+        <div class="flex justify-between h-28 px-4 ">
+          <img
+            src="./src/img/logo.png"
+            alt="logo"
+            class="h-auto my-4 hover:animate-pulse py-2"
+          />
+          <ul
+            class="flex gap-2 lg:gap-8 items-center lg:text-lg md:text-base sm:text-xs xs:text-xs text-white font-semibold"
+          >
+            <li class="hover:text-slate-500 active:text-red-500 text-red-500">
+              <a href="#home">Home</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="#historia">História</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="eventos.html">Eventos</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="galeria.html">Galeria</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="contacto.html">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Banner capa-->
+    <div
+      class="h-96 w-auto bg-[url('/src/img/capa.jpg')] sm:bg-center md:bg-cover lg:bg-center bg-fixed"
+    ></div>
+    <!--História do Motoclube-->
+    <div id="historia" class=" px-8">
+      <h2
+        class="text-red-500 pt-8 py-16 text-center justify-center items-end tracking-widest text-4xl font-serif italic font-bold"
+      >
+        A História dos Cavaleiros de Santa Maria de Bagunte
+      </h2>
+      <p
+        class="flex w-auto mx-auto sm:px-14 md:px-24 lg:px-36 text-justify indent-12 leading-7 text-lg "
+      >
+        No dia 8 de setembro de 2022, nasceu um sonho que viria a se tornar uma
+        realidade incrível. O visionário e fundador por trás desse sonho foi o
+        Nova Era, um motociclista apaixonado e membro da comunidade de Bagunte,
+        Vila do Conde, no Porto, Portugal. O "Nova Era" Paulo, como é conhecido
+        entre os amigos, acreditava que havia algo de mágico em unir pessoas que
+        compartilhavam sua paixão por motos e aventuras.<br /><br />
+        Nova Era, junto com um grupo de entusiastas das duas rodas, reuniu-se
+        naquele dia histórico e fundou o Motoclube Cavaleiros de Santa Maria de
+        Bagunte. A escolha do nome homenageia a padroeira da cidade, Santa Maria
+        de Bagunte, e reflete o espírito cavalheiresco e a devoção ao
+        motociclismo do grupo.<br /><br />A sede do motoclube foi estabelecida
+        em Bagunte, uma cidade com uma rica herança cultural e uma localização
+        perfeita para explorar as estradas pitorescas da região do Porto. Os
+        Cavaleiros de Santa Maria de Bagunte escolheram esse local não apenas
+        por sua beleza, mas também por sua conexão com a história e a comunidade
+        local.<br /><br />
+        Desde sua fundação, o Motoclube Cavaleiros de Santa Maria de Bagunte tem
+        crescido continuamente. Tornou-se um lar acolhedor para associados de
+        todas as idades e origens, unidos pela paixão pelas motos e pelas
+        aventuras que esperam nas estradas. Cada associado traz sua própria
+        história e personalidade única para o grupo, enriquecendo ainda mais a
+        experiência de pertencer aos Cavaleiros de Santa Maria de Bagunte.
+        <br /><br />O motoclube realiza regularmente passeios emocionantes pela
+        paisagem deslumbrante de Portugal, explorando estradas sinuosas,
+        montanhas majestosas e vilas pitorescas. Eles também participam
+        ativamente em ações sociais e eventos beneficentes para retribuir à
+        comunidade que os acolheu.<br /><br />O espírito de camaradagem e
+        solidariedade é o alicerce dos Cavaleiros de Santa Maria de Bagunte.
+        Eles não apenas compartilham a estrada, mas também compartilham
+        experiências de vida, risos e histórias que durarão para sempre. Para
+        eles, a moto é mais do que um veículo; é uma ponte para amizades
+        duradouras e uma vida cheia de aventuras. <br />
+        <br />À medida que o Motoclube Cavaleiros de Santa Maria de Bagunte
+        continua sua jornada, eles sabem que o horizonte está sempre à frente,
+        pronto para ser explorado. Unidos pela paixão, pela devoção à comunidade
+        e pelo amor pelas estradas, eles são verdadeiros cavaleiros modernos,
+        prontos para enfrentar o desconhecido e viver intensamente cada curva da
+        vida.<br /><br />
+        O futuro é promissor para os Cavaleiros de Santa Maria de Bagunte, e o
+        legado desse motoclube especial continuará a crescer e inspirar gerações
+        futuras de motociclistas. Eles são a encarnação viva do espírito do
+        motociclismo, sempre prontos para cavalgar juntos e fazer história nas
+        estradas de Portugal e além.
+      </p>
+    </div>
+    <footer>
+      <div class="flex justify-center items-center w-auto pt-28">
+        <img src="/src/img/logo.png" alt="Logo" />
+      </div>
+      <p class="text-xs text-center py-8">
+        Motoclube Cavaleiros de Santa Maria de Bagunte ©2023
+      </p>
+
+      <!--Redes sociais-->
+      <div class="flex mx-auto justify-center items-center gap-16 py-12 mb-10 h-16">
+        <a href="https://www.facebook.com/profile.php?id=100083283365338" target="_blank"
+          ><i data-lucide="facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/cavaleiros_santa_maria/" target="_blank"
+          ><i data-lucide="instagram"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Cavaleiros de Santa Maria</title>
+  </head>
+  <body class="bg-black text-white">
+    <!--Menu de Navegação-->
+    <nav id="home">
+      <div class="bg-black fixed w-full">
+        <div class="flex justify-between h-28 px-4 ">
+          <img
+            src="./src/img/logo.png"
+            alt="logo"
+            class="h-auto my-4 hover:animate-pulse py-2"
+          />
+          <ul
+            class="flex gap-2 lg:gap-8 items-center lg:text-lg md:text-base sm:text-xs xs:text-xs text-white font-semibold"
+          >
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="index.html#historia">História</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500 text-red-500">
+              <a href="#">Eventos</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="galeria.html">Galeria</a>
+            </li>
+            <li class="hover:text-slate-500 active:text-red-500">
+              <a href="contacto.html">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Banner capa-->
+    <div
+      class="h-96 w-auto bg-[url('/src/img/eventos.jpg')] bg-center bg-fixed xl:bg-cover"
+    ></div>
+    <!--Eventos-->
+    <div id="" class="w-auto px-4">
+      <h2
+        class="text-red-500 pt-8 py-16 text-center justify-center items-end tracking-widest text-5xl font-serif italic font-bold"
+      >
+        Eventos
+      </h2>
+      <div
+        class="grid sm:grid-cols-1 mx-auto sm:px-14 md:px-24 lg:px-52 text-center"
+      >
+        <picture class="mx-auto">
+          <img src="/src/img/evento-1.jpg" alt="evento" />
+          <p class="mt-4">
+            Dia: 23 SET 2023 <br />
+            Local: Bagunte - Vila do Conde - Porto
+          </p>
+        </picture>
+        <picture class="mx-auto py-24">
+          <img src="/src/img/evento-2.jpg" alt="evento" />
+          <p class="mt-4">
+            Dia: 10 JUN 2023 <br />
+            Local: Bagunte - Vila do Conde - Porto
+          </p>
+        </picture>
+      </div>
+    </div>
+    <footer>
+      <div class="flex justify-center items-center w-auto pt-28">
+        <img src="/src/img/logo.png" alt="Logo" />
+      </div>
+      <p class="text-xs text-center py-8">
+        Motoclube Cavaleiros de Santa Maria de Bagunte ©2023
+      </p>
+
+      <!--Redes sociais-->
+      <div class="flex mx-auto justify-center items-center gap-16 py-12 mb-10  h-16">
+        <a href="https://www.facebook.com/profile.php?id=100083283365338" target="_blank"
+          ><i data-lucide="facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/cavaleiros_santa_maria/" target="_blank"
+          ><i data-lucide="instagram"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
